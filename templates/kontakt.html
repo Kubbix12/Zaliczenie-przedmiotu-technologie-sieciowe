@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Moja Strona WWW – Kontakt</title>
+  <meta name="description" content="Kontakt do przykładowej witryny oraz interaktywna mapa Google." />
+
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="brand">
+        <strong>Moja Strona WWW</strong>
+        <span>Kontakt</span>
+      </div>
+
+      <nav aria-label="Menu główne">
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="oferta.html">Oferta</a></li>
+          <li><a class="active" href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h1>Kontakt</h1>
+      <p><strong>Email:</strong> kontakt@example.com</p>
+      <p><strong>Telefon:</strong> +48 000 000 000</p>
+      <p><strong>Adres:</strong> ul. Zamenhofa 25 15-435 Białystok</p>
+    </section>
+
+    <section class="card">
+      <h2>Nasza lokalizacja</h2>
+      <div class="map" aria-label="Mapa Google">
+        <iframe
+            src="https://maps.google.com/maps?q=Hotel%20Branicki&ftid=0x471ffc1b1a9759f7:0x69cbed5148964d06&z=16&hl=pl&output=embed"
+            width="600"
+            height="450"
+            style="border:0;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+            title="Hotel Branicki - mapa">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2025 • Kontakt
+    </div>
+  </footer>
+</body>
+</html>

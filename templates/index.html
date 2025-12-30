@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Moja Strona WWW – Start</title>
+  <meta name="description" content="Przykładowa witryna HTML i CSS: 3 podstrony, menu, grafika oraz interaktywna mapa Google." />
+
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="brand">
+        <strong>Moja Strona WWW</strong>
+        <span>Strona główna</span>
+      </div>
+
+      <nav aria-label="Menu główne">
+        <ul>
+          <li><a class="active" href="index.html">Start</a></li>
+          <li><a href="oferta.html">Oferta</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <article class="card">
+        <span class="badge">HTML, CSS, menu, grafika, mapa</span>
+        <h1>Witryna przykładowa</h1>
+        <p>
+          Prosta strona pokazowa spełniająca założenia zadania:
+          co najmniej 3 podstrony, nawigacja w formie listy, poprawne meta,
+          osobny plik CSS, grafika oraz interaktywna mapa.
+        </p>
+        <a class="button" href="oferta.html">Zobacz ofertę</a>
+      </article>
+
+      <aside class="card hero-img" aria-label="Grafika strony">
+        <img src="/images/consulting.png" alt="Przykładowa grafika na stronie" />
+      </aside>
+    </section>
+
+    <section class="grid" aria-label="Sekcja informacyjna">
+      <div class="card">
+        <h2>Podstrony</h2>
+        <p>Start, Oferta i Kontakt – każda z własnym menu.</p>
+      </div>
+      <div class="card">
+        <h2>CSS</h2>
+        <p>Wszystkie style są w pliku <strong>style.css</strong>.</p>
+      </div>
+      <div class="card">
+        <h2>Mapa</h2>
+        <p>Na stronie Kontakt jest osadzona interaktywna mapa Google.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2025 • Przykładowy projekt HTML/CSS
+    </div>
+  </footer>
+</body>
+</html>
